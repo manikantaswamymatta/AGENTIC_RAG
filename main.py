@@ -48,7 +48,7 @@ class AgenticRAGService:
         print(f"[SERVICE] Current history length: {len(history)}")
         intent = self.supervisor.decide_agent(user_message, history)
         intent = intent.strip().lower()
-        print(f"[mani] Initial intent from supervisor: {intent}")
+        print(f"[SERVICE] Initial intent from supervisor: {intent}")
 
         # Route using supervisor
         intent = self.supervisor.decide_agent(user_message, history)
