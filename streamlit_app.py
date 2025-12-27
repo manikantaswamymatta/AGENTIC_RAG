@@ -44,7 +44,6 @@ st.title("🤖 Agentic RAG (BFSI)")
 st.markdown(
     """
 Ask a question related to loans or general BFSI topics.
-The **Supervisor Agent** will route your query to the correct agent.
 """
 )
 
